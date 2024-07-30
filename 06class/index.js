@@ -66,20 +66,49 @@
 // let fun1 = ayush5()
 // console.log(fun1)
 
-function ayush5(){
-    try{
-            return "hello"
-    }
-    catch(error){
-        return {"error message ":error.message}
-    }
-}
+// function ayush5(){
+//     try{
+//             return "hello"
+//     }
+//     catch(error){
+//         return {"error message ":error.message}
+//     }
+// }
 
-let fun1 = ayush5()
-if(fun1["error message"]){
-    console.log("code mistake")
-}
-else{
-    console.log(fun1)
-}
+// let fun1 = ayush5()
+// if(fun1["error message"]){
+//     console.log("code mistake")
+// }
+// else{
+//     console.log(fun1)
+// }
 
+// let fun3 = function (){
+//     return "hello"
+//  }
+// console.log(fun3)
+
+// let fun3 =  (a)=>{
+//     return a
+//  }
+// let obj = {name:"hello",age:4}
+// console.log(fun3(obj))
+
+
+// let ayush7 = ()=>{
+//     console.log(obj)
+// }
+// let obj = { name:"hello",age:23}
+// ayush7()
+
+// let ayush8 = ()=>{
+//     return 'function number8'
+// }
+// let ayush7 = ()=>{
+//     return {name1:ayush8(),name2:ayush8()}
+// }
+
+// let fun2 = ayush7()
+// console.log(fun2)
+
+function if,switch
